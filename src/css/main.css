@@ -635,13 +635,13 @@ body::-webkit-scrollbar-thumb {
 }
 
 .my_header {
-  height: 350px;
+  height: 238px;
   background-image: url("../img/consulting.jpg");
   margin-bottom: 60px;
 }
 
 .my_header__block {
-  height: 350px;
+  height: 243px;
 }
 
 .my_header h1 {
@@ -764,5 +764,44 @@ body::-webkit-scrollbar-thumb {
 @media (max-width: 576px) {
   .blog .side_bar_style_two {
     padding-left: 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  .first-nav__cntact__faq a {
+    width: 167px;
+    height: 46px;
+    border: 1px solid #D4C291;
+    box-sizing: border-box;
+    border-radius: 19.5px;
+    padding: 15px;
+    list-style: none;
+    text-decoration: none;
+    color: #D4C291;
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 425px) {
+  .first-nav__cntact__faq a {
+    width: 167px;
+    height: 46px;
+    border: 1px solid #D4C291;
+    box-sizing: border-box;
+    border-radius: 19.5px;
+    padding: 15px;
+    list-style: none;
+    text-decoration: none;
+    color: #D4C291;
+    font-size: 9px;
+    display: none;
+  }
+  .colum_header {
+    flex-wrap: wrap !important;
+    justify-content: center;
+    width: 100%;
+  }
+  .first-nav__location__text {
+    margin-left: 0.5em;
   }
 }
